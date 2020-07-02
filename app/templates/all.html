@@ -1,0 +1,60 @@
+{% extends "appbuilder/base.html" %}
+{% block content %}
+
+<html lang="en">
+<head>
+    <title>MaxMAD WEBAPP</title>
+    <meta charset="UTF-8">
+    <h1>{{Heading}}</h1>
+<style type="text/css"></style>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" type="text/css" >
+<span class="header-logo">
+        <a href="/home/user/">
+            <img src="/static/img/log.png" alt="logo">
+        </a>
+</span>
+</head>
+<body>
+<div id="wrapper">
+    <div id="inner-wrapper">
+        <div id="menu">
+
+            <ul>
+                <li id="funzioni" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/" class="linkmenu">FUNZIONI</a></li>
+                <li id="login" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/" class="linkmenu">LOGIN PAGE</a></li>
+
+            </ul>
+
+        </div>
+
+            <div class="submenu-container">
+                <div id="sub-funzioni" class="submenu shadow" style="min-height: 330px; display: none; ">
+                    <div class="voci">
+                        <ul>
+
+                            <li><a href="/" class="linksubmenu">Processori</a></li>
+                            <li><a href="/" class="linksubmenu">Schede madri</a></li>
+                            <li><a href="/" class="linksubmenu">Portatili</a></li>
+
+                        </ul>
+                    </div>
+                </div> <!-- /submenu funzioni-->
+                <div id="sub-gestione" class="submenu shadow" style="min-height: 330px; display: none; ">
+                    <div class="voci">
+                        <ul>
+
+                            <li><a href="/" class="linksubmenu">Segnalazioni</a></li>
+                            <li><a href="/" class="linksubmenu">Emergenza</a></li>
+
+                        </ul>
+                    </div>
+                </div> <!-- /submenu funzioni-->
+            </div>
+    </div>
+</div>
+</body>
+
+<script src="/static/js/menu.js"></script>
+</html>
+
+{% endblock %}

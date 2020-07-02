@@ -1,0 +1,69 @@
+{% extends "appbuilder/base.html" %}
+{% block content %}
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>{{Title}}</title>
+<style type="text/css"></style>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" type="text/css" >
+<span class="header-logo">
+        <a href="/menu">
+            <img src="/static/img/log.png" alt="logo">
+        </a>
+</span>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="inner-wrapper">
+        <div id="menu">
+
+            <ul>
+                <li style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/" class="linkmenu">HOME</a></li>
+                <li id="funzioni" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/funzioni/" class="linkmenu">FUNZIONI</a></li>
+                <li id="gestione" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/gestione/" class="linkmenu">GESTIONE</a></li>
+                <li id="configurazione" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/configurazione/" class="linkmenu">CONFIGURAZIONE</a></li>
+                <li id="file_manager" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/filemanager/" class="linkmenu">FILE MANAGER</a></li>
+
+            </ul>
+
+        </div>
+
+            <div class="submenu-container">
+                <div id="sub-funzioni" class="submenu shadow" style="min-height: 330px; display: none; ">
+                    <div class="voci">
+                        <ul>
+
+                            <li><a href="/menu/funzioni" class="linksubmenu">Processori</a></li>
+                            <li><a href="/menu/funzioni" class="linksubmenu">Memorie</a></li>
+                            <li><a href="/menu/funzioni" class="linksubmenu">Schede madri</a></li>
+                            <li><a href="/menu/funzioni" class="linksubmenu">Schede video</a></li>
+                            <li><a href="/menu/funzioni" class="linksubmenu">Portatili</a></li>
+                            <li><a href="/menu/funzioni" class="linksubmenu">Multimedia</a></li>
+                            <li><a href="/menu/funzioni" class="linksubmenu">Storage</a></li>
+
+                        </ul>
+                    </div>
+                </div> <!-- /submenu funzioni-->
+                <div id="sub-gestione" class="submenu shadow" style="min-height: 330px; display: none; ">
+                    <div class="voci">
+                        <ul>
+
+                            <li><a href="/menu/gestione" class="linksubmenu">Segnalazioni</a></li>
+                            <li><a href="/menu/gestione" class="linksubmenu">Controlli avanzati</a></li>
+                            <li><a href="/menu/gestione" class="linksubmenu">Allarmi</a></li>
+                            <li><a href="/menu/gestione" class="linksubmenu">Emergenza</a></li>
+                            <li><a href="/menu/gestione" class="linksubmenu">Upgrade</a></li>
+
+                        </ul>
+                    </div>
+                </div> <!-- /submenu funzioni-->
+            </div>
+    </div>
+</div>
+</body>
+
+<script src="/static/js/menu.js"></script>
+</html>
+
+{% endblock %}

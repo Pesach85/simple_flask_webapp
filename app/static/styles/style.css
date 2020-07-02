@@ -1,0 +1,40 @@
+.header-logo {
+    display: block;
+    text-align: center;
+}
+
+#wrapper {text-align:center; }
+
+   	#inner-wrapper { margin: 13px auto 20px auto; width: 1014px; background-color:#FFF; padding: 5px 0 10px 0; }
+
+        #menu { background-color: #09719a; height:40px; color:#FFF; /*overflow:hidden;*/ }
+
+        	#menu ul { margin:0; padding:0;}
+        	#menu li { margin:0; padding:0; height:40px;  line-height:40px; list-style:none; float:left; display:inline; font-family: 'Francois One',Arial, Helvetica, sans-serif; font-size: 16px; background-image:url(static/img/menu-separator.jpg); background-repeat:no-repeat; background-position:0% 50%}
+
+        	#menu ul li a {padding:10px 9px;  text-shadow: 1px 1px 1px #011434; }
+
+        		a.linkmenu:link    { color: #fff; text-decoration:none; }
+        		a.linkmenu:visited { color: #fff; text-decoration:none; }
+        	    a.linkmenu:hover { color: #FC0; text-decoration: none; }
+
+            #submenu-container {margin: 13px auto 20px auto; clear:both; color:#000; text-align:left; }
+        	    .submenu { width:600px; /*height:300px;*/ min-height:300px; padding-bottom:10px; background-color:#FFF; border-radius:3px; position:absolute; z-index:100; overflow:hidden; text-align:left;}
+        		.submenu ul { margin:12px; padding:0; }
+
+        		.submenu ul li { margin:0; padding:0 0 0 10px; list-style:none; line-height:26px; border-bottom:1px dotted #d2d7e1;  }
+        		.submenu ul li .linksubmenu { font-family: 'Francois One',Arial, Helvetica, sans-serif; font-size: 13px; text-transform:uppercase;}
+                .submenu .voci { float:left; display:inline; width:170px; height:auto; background-color:#f6f7f9; border-top-left-radius:3px; border-bottom-left-radius:3px;}
+
+        		a.linksubmenu:link    { color: #395590; text-decoration:none; }
+        		a.linksubmenu:visited { color: #395590; text-decoration:none; }
+        		a.linksubmenu:hover { color: #FC0; text-decoration: none; }
+
+
+
+
+.shadow {
+  -moz-box-shadow:    1px 1px 5px 0px #333;
+  -webkit-box-shadow: 1px 1px 5px 0px #333;
+  box-shadow:         1px 1px 5px 0px #333;
+}
