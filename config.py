@@ -65,17 +65,17 @@ AUTH_USER_REGISTRATION = True
 # Babel config for translations
 # ---------------------------------------------------
 # Setup default language
-BABEL_DEFAULT_LOCALE = "it"
+BABEL_DEFAULT_LOCALE = "en"
 # Your application default translation path
 BABEL_DEFAULT_FOLDER = "translations"
 # The allowed translation for you app
 LANGUAGES = {
     "en": {"flag": "gb", "name": "English"},
     "es": {"flag": "es", "name": "Spanish"},
-    "de": {"flag": "de", "name": "German"},
-    "zh": {"flag": "cn", "name": "Chinese"},
-    "ru": {"flag": "ru", "name": "Russian"},
+    "fr": {"flag": "fr", "name": "French"},
     "it": {"flag": "it", "name": "Italian"},
+    "ro": {"flag": "ro", "name": "Romanian"},
+    "pt": {"flag": "pt", "name": "Portuguese"},
 }
 # ---------------------------------------------------
 # Image and file configuration
