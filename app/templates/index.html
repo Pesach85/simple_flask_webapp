@@ -1,13 +1,12 @@
 {% extends "appbuilder/base.html" %}
 {% block content %}
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{Title}}</title>
+    <title>{{title}}</title>
 <style type="text/css"></style>
     <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" type="text/css" >
 <span class="header-logo">
-        <a href="/menu">
+        <a href="/">
             <img src="/static/img/log.png" alt="logo">
         </a>
 </span>
@@ -19,11 +18,11 @@
         <div id="menu">
 
             <ul>
-                <li style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/" class="linkmenu">HOME</a></li>
-                <li id="funzioni" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/funzioni/" class="linkmenu">FUNZIONI</a></li>
-                <li id="gestione" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/gestione/" class="linkmenu">GESTIONE</a></li>
-                <li id="configurazione" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/configurazione/" class="linkmenu">CONFIGURAZIONE</a></li>
-                <li id="file_manager" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/filemanager/" class="linkmenu">FILE MANAGER</a></li>
+                <li style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/" class="linkmenu">{{HOME}}</a></li>
+                <li id="funzioni" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/funzioni/" class="linkmenu">{{FUNZIONI}}</a></li>
+                <li id="gestione" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/gestione/" class="linkmenu">{{GESTIONE}}</a></li>
+                <li id="configurazione" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/configurazione/" class="linkmenu">{{CONFIG}}</a></li>
+                <li id="file_manager" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/menu/filemanager/" class="linkmenu">{{FILEM}}</a></li>
 
             </ul>
 
@@ -59,10 +58,11 @@
                     </div>
                 </div> <!-- /submenu funzioni-->
             </div>
+
+           <p id="hour" style="display:block; margin-right: 0px; margin-left:auto; text-align: right;"></p>
     </div>
 </div>
 </body>
-
 <script src="/static/js/menu.js"></script>
 </html>
 

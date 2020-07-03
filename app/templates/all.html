@@ -1,11 +1,10 @@
 {% extends "appbuilder/base.html" %}
 {% block content %}
 
-<html lang="en">
 <head>
     <title>MaxMAD WEBAPP</title>
     <meta charset="UTF-8">
-    <h1>{{Heading}}</h1>
+    <h1>{{_(Heading)}}</h1>
 <style type="text/css"></style>
     <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" type="text/css" >
 <span class="header-logo">
@@ -20,9 +19,8 @@
         <div id="menu">
 
             <ul>
-                <li id="funzioni" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/" class="linkmenu">FUNZIONI</a></li>
-                <li id="login" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/" class="linkmenu">LOGIN PAGE</a></li>
-
+                <li id="funzioni" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/" class="linkmenu">{{FUNZ}}</a></li>
+                <li id="gestione" style="background-image: url(&quot;/static/img/menu-separator-freccia.png&quot;);"><a href="/" class="linkmenu">{{GEST}}</a></li>
             </ul>
 
         </div>
@@ -50,10 +48,10 @@
                     </div>
                 </div> <!-- /submenu funzioni-->
             </div>
+           <p id="hour" style="display:block; margin-right: 0px; margin-left:auto; text-align: right;"></p>
     </div>
 </div>
 </body>
-
 <script src="/static/js/menu.js"></script>
 </html>
 

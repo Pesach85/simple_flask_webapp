@@ -1,4 +1,4 @@
-# Portuguese translations for PROJECT.
+# Italian translations for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -10,8 +10,8 @@ msgstr ""
 "POT-Creation-Date: 2020-07-02 13:11+0200\n"
 "PO-Revision-Date: 2020-07-03 10:49+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: pt\n"
-"Language-Team: pt <LL@li.org>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -41,7 +41,7 @@ msgstr ""
 #: venv/Lib/site-packages/wtforms/ext/sqlalchemy/fields.py:185
 #: venv/Lib/site-packages/wtforms/fields/core.py:513
 msgid "Not a valid choice"
-msgstr ""
+msgstr "Scelta non valida"
 
 #: venv/Lib/site-packages/flask_appbuilder/fieldwidgets.py:153
 #: venv/Lib/site-packages/flask_appbuilder/fieldwidgets.py:172
@@ -55,24 +55,24 @@ msgstr ""
 #: venv/Lib/site-packages/flask_appbuilder/templates/appbuilder/general/lib.html:347
 #: venv/Lib/site-packages/flask_appbuilder/templates/appbuilder/general/model/list.html:8
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: venv/Lib/site-packages/flask_appbuilder/messages.py:10
 #: venv/Lib/site-packages/flask_appbuilder/templates/appbuilder/general/lib.html:354
 msgid "Back"
-msgstr ""
+msgstr "Indietro"
 
 #: venv/Lib/site-packages/flask_appbuilder/messages.py:11
 #: venv/Lib/site-packages/flask_appbuilder/templates/appbuilder/general/lib.html:294
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 #: venv/Lib/site-packages/flask_appbuilder/messages.py:12
 #: venv/Lib/site-packages/flask_wtf/file.py:50
 #: venv/Lib/site-packages/wtforms/validators.py:218
 #: venv/Lib/site-packages/wtforms/validators.py:258
 msgid "This field is required."
-msgstr ""
+msgstr "Campo obbligatorio"
 
 #: venv/Lib/site-packages/flask_appbuilder/messages.py:13
 #: venv/Lib/site-packages/wtforms/fields/core.py:810
@@ -93,7 +93,7 @@ msgstr ""
 
 #: venv/Lib/site-packages/flask_appbuilder/validators.py:32
 msgid "Already exists."
-msgstr ""
+msgstr "Già esistente"
 
 #: venv/Lib/site-packages/flask_appbuilder/charts/views.py:35
 msgid "Group by"
@@ -223,7 +223,7 @@ msgstr ""
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:134
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:385
 msgid "User Name"
-msgstr ""
+msgstr "Nome utente"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:13
 msgid "Remember me"
@@ -237,14 +237,14 @@ msgstr ""
 #: venv/Lib/site-packages/flask_appbuilder/templates/appbuilder/general/security/login_db.html:30
 #: venv/Lib/site-packages/flask_appbuilder/templates/appbuilder/general/security/login_ldap.html:27
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:23
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:61
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:100
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:132
 msgid "First Name"
-msgstr ""
+msgstr "Nome"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:26
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:149
@@ -256,7 +256,7 @@ msgstr ""
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:105
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:133
 msgid "Last Name"
-msgstr ""
+msgstr "Cognome"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:32
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:150
@@ -276,7 +276,7 @@ msgstr ""
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:85
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:293
 msgid "Confirm Password"
-msgstr ""
+msgstr "Conferma password"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:48
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:86
@@ -287,18 +287,18 @@ msgstr ""
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:87
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:296
 msgid "Passwords must match"
-msgstr ""
+msgstr "La password deve coincidere"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:71
 #: venv/Lib/site-packages/flask_appbuilder/security/forms.py:110
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:137
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/manager.py:637
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:125
 msgid "List Users"
-msgstr ""
+msgstr "Lisa utenti"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/manager.py:640
 msgid "Security"
@@ -466,11 +466,11 @@ msgstr ""
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:141
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:387
 msgid "Failed login count"
-msgstr ""
+msgstr "Impossibile contare i login"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:142
 msgid "Created on"
-msgstr ""
+msgstr "Creato"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:143
 msgid "Created by"
@@ -482,7 +482,7 @@ msgstr ""
 
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:145
 msgid "Changed by"
-msgstr ""
+msgstr "Cambiato"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:151
 msgid "Username valid for authentication on DB or LDAP, unused for OID auth"
@@ -490,7 +490,7 @@ msgstr ""
 
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:158
 msgid "It's not a good policy to remove a user, just make it inactive"
-msgstr ""
+msgstr "Non è una buona pratica cancellare un utente, meglio renderlo inattivo"
 
 #: venv/Lib/site-packages/flask_appbuilder/security/views.py:161
 msgid "The user's email, this will also be used for OID auth"

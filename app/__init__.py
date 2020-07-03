@@ -1,6 +1,6 @@
 import logging
 
-from flask import Flask
+from flask import Flask, request, g
 from flask_appbuilder import AppBuilder, SQLA
 
 from index import HomeView
@@ -14,9 +14,10 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 app = Flask(__name__)
 app.config.from_object("config")
+
+
 db = SQLA(app)
 appbuilder = AppBuilder(app, db.session, indexview=HomeView)
-
 
 """
 from sqlalchemy.engine import Engine
@@ -31,4 +32,4 @@ def set_sqlite_pragma(dbapi_connection, connection_record):
     cursor.close()
 """
 
-from app import views
+from . import views

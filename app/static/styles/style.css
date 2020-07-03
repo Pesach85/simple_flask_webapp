@@ -30,11 +30,9 @@
         		a.linksubmenu:visited { color: #395590; text-decoration:none; }
         		a.linksubmenu:hover { color: #FC0; text-decoration: none; }
 
-
-
-
 .shadow {
   -moz-box-shadow:    1px 1px 5px 0px #333;
   -webkit-box-shadow: 1px 1px 5px 0px #333;
   box-shadow:         1px 1px 5px 0px #333;
+
 }
